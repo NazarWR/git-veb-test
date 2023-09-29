@@ -19,6 +19,9 @@ footer{
     text-align: center;
     
 }
+.background_dark_green {
+    background-color: darkgreen;
+}
 .block_1{
     width: auto;
     height: auto;
@@ -30,12 +33,12 @@ p{
 input{
     width: 100px;
 }
-.hov_baton{
+.hov_button{
     width: auto;
     height: auto;
     margin:10px;
 }
-.hov_baton:hover{
+.hov_button:hover{
     background-color: rgb(28, 28, 248)
 
 }
@@ -58,6 +61,12 @@ input{
     padding-right: 20px; 
     width: auto;
     height: auto;
+}
+.table_border_1{
+    border: 1px solid black;
+}
+.table_border_3{
+    border: 1px solid black;
 }
 .display_inline_block{
     display: inline-block;
