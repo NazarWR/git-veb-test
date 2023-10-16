@@ -12,7 +12,11 @@ header{
     background-color: cornflowerblue;
 }
 footer{
+<<<<<<< HEAD
     background-color: black; 
+=======
+    background-color: black;
+>>>>>>> 8d2ecd61398f2723e6c7663a4b3ced7b65e56517
     height: 160px;
     color: white;
     line-height: 160px;
@@ -44,6 +48,7 @@ input{
 }
 .block_2{
     background-color: aquamarine;
+<<<<<<< HEAD
 }
 
 /* .block_3{
@@ -64,10 +69,33 @@ input{
 h */
 .table_border_1{
     border: 10px solid black;
+=======
+    width: 500px;
+    height: 200px;
+}
+
+.block_3{
+    background-color: aquamarine;
+    width: 500px;
+    height: 200px;
+}
+.table{
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px; 
+    width: auto;
+    height: auto;
+}
+.table_border_1{
+    border: 1px solid black;
+>>>>>>> 8d2ecd61398f2723e6c7663a4b3ced7b65e56517
 }
 .table_border_3{
     border: 1px solid black;
 }
+<<<<<<< HEAD
 .display_grid{
     display: grid;
     grid-template-columns: repeat(3, minmax(auto , auto));
@@ -156,3 +184,9 @@ h */
         height: auto;
     }
  }
+=======
+.display_inline_block{
+    display: inline-block;
+    vertical-align: top;
+}
+>>>>>>> 8d2ecd61398f2723e6c7663a4b3ced7b65e56517
